@@ -118,14 +118,6 @@ body {
   margin-top: auto;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -575,6 +567,10 @@ body {
     margin-right: 20px;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:mt-\[100px\] {
     margin-top: 100px;
   }
@@ -593,10 +589,6 @@ body {
 
   .lg\:mt-\[5px\] {
     margin-top: 5px;
-  }
-
-  .lg\:mt-0 {
-    margin-top: 0px;
   }
 
   .lg\:inline-block {
